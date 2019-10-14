@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import UIKit
+#endif
+
 extension UIView {
     @objc public func addSubviewMatchingConstraints(_ view: UIView) {
         view.translatesAutoresizingMaskIntoConstraints = false

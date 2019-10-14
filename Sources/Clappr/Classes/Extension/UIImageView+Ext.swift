@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import UIKit
+#endif
+
 private let imageCache = NSCache<AnyObject, AnyObject>()
 
 public extension UIImageView {

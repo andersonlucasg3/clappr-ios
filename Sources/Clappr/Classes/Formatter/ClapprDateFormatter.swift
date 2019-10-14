@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import Foundation
+#endif
+
 open class ClapprDateFormatter {
     fileprivate static let hourInSeconds: Double = 1 * 60 * 60
 

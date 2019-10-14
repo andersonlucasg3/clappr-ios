@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import Foundation
+#endif
+
 open class CorePlugin: BaseObject, Plugin {
     @objc open weak var core: Core?
     open class var type: PluginType { return .core }

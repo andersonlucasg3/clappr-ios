@@ -1,4 +1,7 @@
 import AVFoundation
+#if SWIFT_PACKAGE
+import UIKit
+#endif
 
 open class AVFoundationPlayback: Playback {
     private static let mimeTypes = [

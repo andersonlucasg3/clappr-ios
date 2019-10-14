@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import UIKit
+#endif
+
 open class UIContainerPlugin: SimpleContainerPlugin, UIPlugin {
     var uiObject = UIObject()
 

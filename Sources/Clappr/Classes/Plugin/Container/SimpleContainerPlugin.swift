@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import Foundation
+#endif
+
 open class SimpleContainerPlugin: ContainerPlugin {
     open var playback: Playback? {
         return container?.playback

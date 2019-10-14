@@ -1,4 +1,7 @@
 import AVKit
+#if SWIFT_PACKAGE
+import Clappr
+#endif
 
 @objcMembers
 open class Player: AVPlayerViewController {

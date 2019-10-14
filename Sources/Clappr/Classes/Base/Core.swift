@@ -1,3 +1,8 @@
+#if SWIFT_PACKAGE
+import UIKit
+import ClapprObjC
+#endif
+
 public typealias SharedData = [String: Any]
 
 open class Core: UIObject, UIGestureRecognizerDelegate {

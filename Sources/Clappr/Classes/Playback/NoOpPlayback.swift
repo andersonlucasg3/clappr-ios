@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import UIKit
+#endif
+
 open class NoOpPlayback: Playback {
     fileprivate var errorLabel = UILabel(frame: CGRect.zero)
 

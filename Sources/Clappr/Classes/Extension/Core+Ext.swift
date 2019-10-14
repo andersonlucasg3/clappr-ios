@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import Foundation
+#endif
+
 extension Core {
     
     func addTapGestures() {

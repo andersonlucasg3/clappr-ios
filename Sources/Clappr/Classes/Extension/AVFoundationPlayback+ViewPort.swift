@@ -1,4 +1,7 @@
 import AVFoundation
+#if SWIFT_PACKAGE
+import UIKit
+#endif
 
 extension AVFoundationPlayback {
 

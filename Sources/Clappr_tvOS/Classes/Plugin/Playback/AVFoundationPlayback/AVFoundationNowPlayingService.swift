@@ -1,6 +1,9 @@
 import MediaPlayer
 import AVKit
 import AVFoundation
+#if SWIFT_PACKAGE
+import Clappr
+#endif
 
 class AVFoundationNowPlayingService {
 

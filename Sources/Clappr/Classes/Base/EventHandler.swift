@@ -1,4 +1,7 @@
 import Foundation
+#if SWIFT_PACKAGE
+import ClapprObjC
+#endif
 
 public typealias EventUserInfo = [AnyHashable: Any]?
 

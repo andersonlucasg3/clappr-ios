@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import UIKit
+#endif
+
 extension UIPanGestureRecognizer {
     var translation: CGPoint {
         return translation(in: view)

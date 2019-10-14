@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import UIKit
+#endif
+
 open class TimeIndicator: MediaControl.Element {
     open class override var name: String {
         return "TimeIndicator"

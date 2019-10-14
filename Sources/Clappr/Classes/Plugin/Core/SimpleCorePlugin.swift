@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import Foundation
+#endif
+
 open class SimpleCorePlugin: CorePlugin {
     open var activeContainer: Container? {
         return core?.activeContainer

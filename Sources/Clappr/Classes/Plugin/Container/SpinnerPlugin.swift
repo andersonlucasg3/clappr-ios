@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import UIKit
+#endif
+
 open class SpinnerPlugin: UIContainerPlugin {
 
     fileprivate var spinningWheel: UIActivityIndicatorView!

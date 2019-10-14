@@ -1,4 +1,7 @@
 import Foundation
+#if SWIFT_PACKAGE
+import ClapprObjC
+#endif
 
 open class Container: UIObject {
     private(set) var plugins: [Plugin] = []
